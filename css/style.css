@@ -1,0 +1,325 @@
+/*----------------------------------
+            " Font Style "
+----------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+/* -------------------------------
+        " Common Style "
+--------------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header-width {
+  width: 1163px;
+}
+img {
+  width: 100%;
+}
+/*-------------------------------------
+       " Header-Part "  
+ ------------------------------------*/
+.header {
+  background-color: #2d25a0;
+  height: 677px;
+  margin-bottom: 70px;
+}
+.header-menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 52px;
+}
+.header-menu-top-left ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 156px;
+  margin-top: 0;
+}
+.header-menu-top-left ul li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-right: 36px;
+}
+.header-menu-top-left ul li a.first {
+  width: 48px;
+  height: 24px;
+}
+.header-menu-top-left ul li a.second {
+  width: 46px;
+  height: 24px;
+}
+.header-menu-top-left ul li a.third {
+  width: 128px;
+  height: 24px;
+}
+.header-menu-top-left ul li a.four {
+  width: 158px;
+  height: 24px;
+}
+.header-menu-top-left ul li a.five {
+  width: 66px;
+  height: 24px;
+}
+.header-menu-top-right {
+  text-align: right;
+}
+.header-menu-top-right a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e02c6d;
+  width: 123px;
+  height: 44px;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 121px;
+  margin-left: 450px;
+}
+.header-menu-top-right a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  color: black;
+}
+.header-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.header-bottom-left {
+  margin-left: 156px;
+}
+.header-bottom-left-content {
+  margin-bottom: 27px;
+  margin-right: 102px;
+  margin-top: 121px;
+}
+.header-bottom-left-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+  width: 490px;
+  height: 230px;
+  color: #fff;
+}
+.header-bottom-right {
+  margin-left: 102px;
+  margin-bottom: 86px;
+  margin-top: 67px;
+  margin-right: 140px;
+}
+.header-bottom-right-image img {
+  width: 556.01px;
+  height: 438px;
+}
+.header-bottom-right-image:hover img {
+  transform: scale(1.2) rotate(360deg);
+  transition: transform 0.7s ease-in-out;
+}
+.header-bottom-left-bottom-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 168px;
+  height: 44px;
+  background-color: #e02c6d;
+  border: 0;
+  padding: 10px, 24px, 10px, 24px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 27px;
+  margin-bottom: 169px;
+  margin-right: 419px;
+}
+.header-bottom-left-bottom-btn a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  color: black;
+}
+/* -------------------------------------
+           " Player Team "
+---------------------------------------*/
+.players-team {
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  width: 1050px;
+  height: 474px;
+  margin: auto;
+  margin-left: 180px;
+  margin-right: 210px;
+}
+.player {
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  width: 330px;
+  height: 474px;
+}
+.player-image {
+  padding: 15px;
+  text-align: center;
+}
+.player-image img {
+  width: 300px;
+  height: 256px;
+}
+.player-info {
+  margin: 0 15px 15px 15px;
+}
+.player-info h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.player-info p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 300px;
+  height: 104px;
+  line-height: 26px;
+  margin-top: 6px;
+}
+.team-top {
+  margin-top: 27px;
+}
+/*-------------------------------
+        Gallery
+------------------------------  */
+.Gallary-teams {
+  margin-top: 100px;
+}
+.Gallary-teams h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #2d25a0;
+}
+.gallery-team {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team {
+  margin-bottom: 20px;
+}
+.team img {
+  width: 420px;
+  height: 320px;
+}
+/* ---------------------------------
+            HighLIghts Section
+----------------------------------- */
+.highlights {
+  display: flex;
+  margin-top: 165px;
+  align-items: center;
+}
+.highlights-left {
+  margin-left: 182px;
+  width: 469px;
+  height: 309px;
+  margin-right: 66px;
+}
+.highlights-left h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.highlights-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0;
+}
+.highlights-right {
+  margin-right: 156px;
+}
+.highlights-right img {
+  width: 567px;
+  height: 427px;
+}
+.highlights-left-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  width: 168px;
+  height: 44px;
+  background-color: #e02c6d;
+  border: 0;
+  padding: 10px, 24px, 10px, 24px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 24px;
+}
+/* --------------------------------
+    Football - Career 
+--------------------------------- */
+.football-career {
+  padding-top: 80px;
+}
+.football-career-info {
+  background-color: #2d25a0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.football-career-inner-info {
+  text-align: center;
+}
+.football-career-inner-info h3 {
+  color: #faed7b;
+  font-size: 28px;
+}
+.football-career-inner-info p {
+  color: #a789ff;
+  font-size: 1.33333333rem;
+  line-height: 1.25;
+}
+.football-career-inner-info a {
+  background-color: #faed7b;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 14px 60px;
+  margin-top: 20px;
+}
+/* --------------------------------------
+              " Footer "
+-------------------------------------- */
+footer {
+  width: 483.87px;
+  height: 213px;
+  margin-left: 475px;
+  margin-right: 481px;
+  margin-bottom: 63px;
+  margin-top: 158px;
+}
+.footer-top-icon-image img {
+  width: 483px;
+  height: 110px;
+}
+.footer-mid-icon ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+.footer-mid-icon ul li {
+  display: inline-block;
+}
+.footer-mid-icon ul li a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  color: #969bab;
+}
+.footer-bottom-title p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
