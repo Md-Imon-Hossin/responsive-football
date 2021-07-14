@@ -286,6 +286,11 @@ img {
   padding: 14px 60px;
   margin-top: 20px;
 }
+#read-more:hover {
+  background-color: rgba(152, 139, 20, 0.8);
+  color: #fff;
+  transition: 0.4s;
+}
 /* --------------------------------------
               " Footer "
 -------------------------------------- */
