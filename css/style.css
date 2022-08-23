@@ -12,6 +12,7 @@ body {
 }
 .header-width {
   width: 1163px;
+  margin: auto;
 }
 img {
   width: 100%;
@@ -26,16 +27,19 @@ img {
 }
 .header-menu-top {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   padding-top: 52px;
+ 
 }
+
 .header-menu-top-left ul {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-  margin-left: 156px;
+padding-left: 0;
   margin-top: 0;
+}
+.header-menu-top-left ul li{
+  display: inline-block;
 }
 .header-menu-top-left ul li a {
   text-decoration: none;
@@ -44,29 +48,33 @@ img {
   font-weight: 500;
   color: #fff;
   margin-right: 36px;
+
 }
 .header-menu-top-left ul li a.first {
   width: 48px;
-  height: 24px;
+  /* height: 24px; */
 }
 .header-menu-top-left ul li a.second {
   width: 46px;
-  height: 24px;
+  /* height: 24px; */
 }
 .header-menu-top-left ul li a.third {
   width: 128px;
-  height: 24px;
+  /* height: 24px; */
 }
 .header-menu-top-left ul li a.four {
   width: 158px;
-  height: 24px;
+  /* height: 24px; */
 }
 .header-menu-top-left ul li a.five {
   width: 66px;
-  height: 24px;
+  /* height: 24px; */
 }
-.header-menu-top-right {
+/* .header-menu-top-right {
   text-align: right;
+} */
+.header-menu-top-right{
+  text-align: right !important;
 }
 .header-menu-top-right a {
   display: inline-block;
@@ -77,21 +85,24 @@ img {
   height: 44px;
   text-align: center;
   line-height: 40px;
-  margin-right: 121px;
-  margin-left: 450px;
+  /* margin-right: 121px;
+  margin-left: 450px; */
 }
 .header-menu-top-right a:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
   color: black;
 }
+/* ----------------------------------------------
+header Bottom 
+------------------------------------------- */
 .header-bottom {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  width: 1163px;
 }
-.header-bottom-left {
-  margin-left: 156px;
-}
+
 .header-bottom-left-content {
   margin-bottom: 27px;
   margin-right: 102px;
@@ -105,10 +116,10 @@ img {
   color: #fff;
 }
 .header-bottom-right {
-  margin-left: 102px;
+  /* margin-left: 102px; */
   margin-bottom: 86px;
   margin-top: 67px;
-  margin-right: 140px;
+  /* margin-right: 140px; */
 }
 .header-bottom-right-image img {
   width: 556.01px;
