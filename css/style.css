@@ -113,9 +113,11 @@ img {
 .header-bottom-right-image img {
   width: 556.01px;
   height: 438px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .header-bottom-right-image:hover img {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2);
   transition: transform 0.7s ease-in-out;
 }
 .header-bottom-left-bottom-btn a {
@@ -143,44 +145,35 @@ img {
 ---------------------------------------*/
 .players {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 30px;
-  width: 1050px;
-  height: 474px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1163px;
   margin: auto;
-  margin-left: 180px;
-  margin-right: 210px;
+  grid-column-gap: 30px;
+
+  
+ 
 }
 .player {
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-  width: 330px;
-  height: 474px;
+  
+  padding: 15px;
 }
 .player-image {
-  padding: 15px;
+  
   text-align: center;
 }
-.player-image img {
-  width: 300px;
-  height: 256px;
-}
-.player-info {
-  margin: 0 15px 15px 15px;
-}
+
+
 .player-info h2 {
   font-size: 28px;
   font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0;
+
 }
 .player-info p {
   font-size: 16px;
   font-weight: 400;
-  width: 300px;
-  height: 104px;
-  line-height: 26px;
-  margin-top: 6px;
+
 }
 .team-top {
   margin-top: 27px;
@@ -190,6 +183,8 @@ img {
 ------------------------------  */
 .Gallary-teams {
   margin-top: 100px;
+  /* width: 1163px;
+  margin: auto; */
 }
 .Gallary-teams h2 {
   font-size: 30px;
@@ -198,72 +193,68 @@ img {
   color: #2d25a0;
 }
 .gallery-team {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1163px;
+  margin: auto;
+  grid-column-gap: 30px;
+  /* text-align: center; */
 }
 .team {
   margin-bottom: 20px;
 }
-.team img {
-  width: 420px;
-  height: 320px;
-}
+
 /* ---------------------------------
             HighLIghts Section
 ----------------------------------- */
 .highlights {
   display: flex;
-  margin-top: 165px;
+
   align-items: center;
+
+  width: 1163px;
+  margin: auto;
+  margin-top: 100px;
 }
-.highlights-left {
-  margin-left: 182px;
-  width: 469px;
-  height: 309px;
-  margin-right: 66px;
-}
+
 .highlights-left h2 {
   font-size: 48px;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 8px;
+
 }
 .highlights-left p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-  margin: 0;
+ 
 }
-.highlights-right {
-  margin-right: 156px;
-}
-.highlights-right img {
-  width: 567px;
-  height: 427px;
-}
-.highlights-left-btn a {
+.highlights-left a{
   display: inline-block;
   text-decoration: none;
   color: #fff;
-  width: 168px;
-  height: 44px;
   background-color: #e02c6d;
-  border: 0;
-  padding: 10px, 24px, 10px, 24px;
+  width: 140px;
+  height: 44px;
   text-align: center;
   line-height: 40px;
-  margin-top: 24px;
 }
+.highlights-left a:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  color: black;
+}
+
 /* --------------------------------
     Football - Career 
 --------------------------------- */
 .football-career {
   padding-top: 80px;
+  
 }
 .football-career-info {
   background-color: #2d25a0;
   padding-top: 80px;
   padding-bottom: 80px;
+  width: 100%;
 }
 .football-career-inner-info {
   text-align: center;
@@ -295,16 +286,14 @@ img {
               " Footer "
 -------------------------------------- */
 footer {
-  width: 483.87px;
-  height: 213px;
-  margin-left: 475px;
-  margin-right: 481px;
+  
   margin-bottom: 63px;
   margin-top: 158px;
+  text-align: center;
 }
 .footer-top-icon-image img {
   width: 483px;
-  height: 110px;
+
 }
 .footer-mid-icon ul {
   list-style: none;
